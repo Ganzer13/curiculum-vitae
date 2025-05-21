@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .cv-frame {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border: 4px solid #007bff;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .profile-img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #333;
+        }
+
+        h1, h2, h3 {
+            color: #004080;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #999
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        .gallery {
+            width: 250px;
+            margin: 10px;
+            border-radius: 4px;
+        }
+
+        social-icons img {
+            width: 40px;
+            margin: 5px;
+            vertical-align: middle;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #ccc;
+            padding-top: 15px;
+            color: #777;    
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-frame">
+        <!-- Header dengan foto -->
+        <header style="text-align: center;">
+            <img src="https://assets.onecompiler.app/43gj8mycn/43j9t6zj9/foto.diri.jpg" alt="Foto Diri" class="profile-img">
+            <h1>Roland Albertian Sehapikang</h1>
+            <h3>Mahasiswa / PJJ-Informatika</h3>
+            <!-- Komentar: Ini bagian header dan foto -->  
+        </header>
+
+        <!-- Deskripsi Diri-->
+        <section>
+            <h2><u>Tentang Saya</u></h2>
+            <p>Saya adalah seorang mahasiswa dari <strong><a href="https://unsia.ac.id" target="_blank">Universitas Siber Asia</a></strong> dengan minat dalam pengembangan web dan pengelolaan database.</p>
+            <p>Ketekunan dan kreatifitas adalah nilai yang saya pegang dalam bekerja dan belajar. Sebelum memutuskan untuk kuliah lagi, saya memilik pengalaman kerja di beberapa perusahaan retail.</p>
+        </section>
+
+        <!-- Link Sosial media-->
+         <section>
+            <h2><u>Sosial Media</u></h2>
+            <div class="social-icons">
+        <a href="https://facebook.com" target="_blank"><img src="https://img.icons8.com/?size=50&id=118468&format=png&color=1A1A1A" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="https://img.icons8.com/?size=50&id=32292&format=png&color=1A1A1A" alt="Instagram"></a>
+        <a href="https://x.com" target="_blank"><img src="https://img.icons8.com/?size=50&id=6Fsj3rv2DCmG&format=png&color=1A1A1A" alt="X"></a>
+      </div>        
+         </section>
+
+         <!-- Galery Gambar -->
+        <section>
+            <h2><u><b>Galeri Kegiatan</b></u></h2>
+            <img src="https://assets.onecompiler.app/43gj8mycn/43jaqhxyh/kegiatan1.jpg" alt="Kegiatan 1" class="gallery">
+            <img src="https://assets.onecompiler.app/43gj8mycn/43jaqhxyh/kegiatan2.jpg" alt="Kegiatan 2" class="gallery">
+            <img src="https://assets.onecompiler.app/43gj8mycn/43jaqhxyh/kegiatan3.jpg" alt="Kegiatan 3" class="gallery">
+        </section>
+
+        <!-- Tabel Pendidikan -->
+         <section>
+            <h2><u>Riwayat Pendidikan</u></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Institusi</th>
+                        <th>Jurusan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2011 - 2014</td>
+                        <td>SMK Negeri 2 Bitung</td>
+                        <td>TKJ</td>
+                    </tr>
+                    <tr>
+                        <td>2024 - sekarang</td>
+                        <td>Universitas Siber Asia</td>
+                        <td>PJJ-Informatika</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!-- Tabel Pengalaman-->
+          <section>
+            <h2><u>Pengalaman Pekerjaan</u></h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Nama perusahaan</th>
+                        <th>Posisi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2015 - 2016</td>
+                        <td>PT Indomarco Prismatama</td>
+                        <td>Kepala Toko</td>
+                    </tr>
+                    <tr>
+                        <td>2016 - 2017</td>
+                        <td>PT Sumber Alfaria Trijaya</td>
+                        <td>Kepala Toko</td>
+                    </tr>
+                    <tr>
+                        <td>2017 - sekarang</td>
+                        <td>RH Petrogas</td>
+                        <td>Assistant Drilling & Art. Lift Logistic</td>
+                    </tr>
+                </tbody>
+            </table>
+          </section>
+
+          <!-- List Keterampilan -->
+           <section>
+            <h2><u>Keterampilan</u></h2>
+            <ol>
+                <li>Mengoperasikan Komputer</li>
+                <li>Menggunakan Microsoft office</li>
+            </ol>
+           </section>
+
+           <!-- List Bahasa -->
+            <section>
+                <h2><u>Bahasa</u></h2>
+                <ul>
+                 <li>Bahasa Indonesia (aktif)</li>
+                 <li>Bahasa Inggris (menengah)</li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer style="text-align: center; margin-top: 30px;">
+                <!-- Komentar : ini bagian Footer -->
+                 <p>&copy; 2025 Roland Albertian Sehapikang. Dibuat dengan HTML di Visual Studio Code.</p>
+            </footer>
+    </div>
+</body>
+</html>
